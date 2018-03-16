@@ -24,12 +24,12 @@ class Book
     @page_count
   end
 
-  def genres=(genres)
-    @genres = genres
+  def genre=(genre)
+    @genre = genre
   end
 
-  def genres
-    @genres
+  def genre
+    @genre
   end
-  
+
 end
