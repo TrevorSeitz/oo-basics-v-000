@@ -16,4 +16,20 @@ class Book
     @author    
   end
 
+  def page_count=(page_count)
+    @page_count = page_count
+  end
+
+  def page_count
+    @page_count    
+  end
+
+  def genres=(genres)
+    @genres = genres
+  end
+
+  def genres
+    @genres    
+  end
+  
 end
